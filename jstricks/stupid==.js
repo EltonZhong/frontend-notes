@@ -36,3 +36,5 @@ false == {};			// false
 0 == "\n";		        // true
 
 [] == ![];		        // true
+
+NaN === NaN   // false -- Crazy!!
