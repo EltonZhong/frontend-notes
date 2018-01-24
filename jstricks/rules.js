@@ -23,3 +23,5 @@ true ? false : (true ? true : true);	// false
 var a = {n: 1};
 a.x = a = {n: 2};
 
+Java 中计算HashMap hash数组位置：i = (tab.length - 1) & hash；
+
